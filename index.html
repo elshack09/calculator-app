@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+
+<audio id="balll">
+	<source src="music/funkytown.mp3" type="audio/mpeg">
+</audio>
+<form id="disco" name="discoCalc">
+	<div class="box2">
+		<table> 
+			<td><h1>Disco Ball</h1>
+				<input id="myrow" type="text"   name="Input" Size="30">
+				<!-- size 16 referring to font size -->
+				<div class="row2">
+					<input type="button" name="one"   value="  1  " onclick="discoCalc.Input.value += '1'">
+					<input type="button" name="two"   value="  2  " onclick="discoCalc.Input.value += '2'">
+					<input type="button" name="three"   value="  3  " onclick="discoCalc.Input.value += '3'">
+				</div>
+
+				<div class="row2">
+					 <input type="button" name="four"   value="  4  " onclick="discoCalc.Input.value += '4'">
+					 <input type="button" name="five"   value="  5  " onclick="discoCalc.Input.value += '5'">
+					 <input type="button" name="six"   value="  6  " onclick="discoCalc.Input.value += '6'">
+				</div>
+
+				<div class="row2">
+					 <input type="button" name="seven"   value="  7  " onclick="discoCalc.Input.value += '7'">
+					 <input type="button" name="eight"   value="  8  " onclick="discoCalc.Input.value += '8'">
+					 <input type="button" name="nine"   value="9" onclick="discoCalc.Input.value += '9'">
+			 	</div>
+
+			 	<div class="row3">
+				  	<input type="button" name="zero"   value="  0  " onclick="discoCalc.Input.value += '0'">
+				  	<input type="button" name="period"   value="  .  " onclick="discoCalc.Input.value += '.'">
+				  	<input type="button" name="sum"  value="  =  " onclick="discoCalc.Input.value = eval(discoCalc.Input.value)">
+			 	</div>
+
+			 	<div class="row4">
+					<input type="button" name="plus"  value="  +  " onclick="discoCalc.Input.value += ' + '">
+					<input type="button" name="minus"  value=" - " onclick="discoCalc.Input.value += ' - '">
+					<input type="button" name="multiply"  value=" * " onclick="discoCalc.Input.value += ' * '">
+					<input type="button" name="division"  value=" / " onclick="discoCalc.Input.value += ' / '">
+					<!-- <input type="button" name="AVG"  value="AVG" onclick="discoCalc.Input.value += ' - '"> -->
+					<input type="reset" name="clear value" value="Clear">
+					<input type ="button" value="play" onclick="play()">
+					<input type ="button" value="pause" onclick="pause()">
+				</div>
+			</td>
+		</table>
+	</div>
+	</form>
+</div>
+
+<script>
+var a = document.getElementById("balll"); 
+
+function play() { 
+    a.play(); 
+} 
+function pause() { 
+    a.pause(); 
+} 
+</script>
+</script>
+</body>
+</html>

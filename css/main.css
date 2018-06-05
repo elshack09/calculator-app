@@ -1,0 +1,55 @@
+
+*{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  outline: none;
+}
+table{
+  width: 90%;
+ /* height: 300px;*/
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+td{
+  flex:1;
+  width: 20%;
+ /* background-color: yellow;*/
+  height: 600px;
+  background-image: url("../images/disco.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+input{
+  width: 70px;
+  height: 30px;
+  border: 1px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+}
+input:hover{
+  background-color: pink;
+  outline: none;
+}
+h1{
+  color: white;
+  font-size:30px;
+}
+#myrow{
+  width: 400px;
+  color: white;
+}
+.row2{
+flex:1;
+}
+.row3{
+flex:1;
+}
+.row4{
+flex:1;
+}
